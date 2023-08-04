@@ -1,11 +1,12 @@
 {
     "functions": {
       "api/**/*.py": {
-        "runtime": "python3.9@0.0.5"
+        "runtime": "vercel-python@1.2.1"
       }
     },
     "rewrites": [
       { "source": "/api/(.*)", "destination": "/api/$1.py" },
-      { "source": "/(.*)", "destination": "/client/build/$1" }
+      { "source": "/(.*)", "destination": "/client/public/$1" }
     ]
   }
+  
