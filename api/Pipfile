@@ -15,6 +15,7 @@ stripe = "*"
 python-dotenv = "*"
 heroku = "*"
 gunicorn = "*"
+bcrypt = "*"
 
 [dev-packages]
 
