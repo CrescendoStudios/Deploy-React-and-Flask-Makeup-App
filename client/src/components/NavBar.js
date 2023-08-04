@@ -1,7 +1,6 @@
 import React, {useState, useContext} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { UserContext } from './UserContext';
-import gold from '../assets/gold.png';
 import {AiOutlineShoppingCart} from 'react-icons/ai';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 
@@ -53,7 +52,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl h-full mx-auto flex items-center justify-between px-4 md:px-0">
           <div className=''>
             <Link to="/">
-              <img src={gold} alt="logo" className='w-40'/>
+              <img src="/gold.png" alt="logo" className='w-40'/>
             </Link>
           </div>
           <div className='flex items-center'>
@@ -153,7 +152,7 @@ const Navbar = () => {
           <div className="m-4 p-4">
             <Link onClick={handleNavClose}
             to="/">
-              <img src={gold} alt="logo" className='w-40'/>
+              <img src="/gold.png" alt="logo" className='w-40'/>
             </Link>
           </div>
           <ul className='uppercase p-4'>

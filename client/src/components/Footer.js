@@ -1,5 +1,5 @@
 import React from 'react';
-import Gold from '../assets/gold.png';
+
 
 
 
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container mx-auto md:px-14 text-center md:text-justify">
           <div className="flex flex-col md:flex-row items">
             <div className="w-full mb-4 md:mb-0">
-              <img src={Gold} alt="logo" className="w-36 mb-5 mx-32 md:mx-0" />
+              <img src="/gold.png" alt="logo" className="w-36 mb-5 mx-32 md:mx-0" />
               <div>
                 <p className="text-white text-sm">
                   Clean makeup for a healthier, more radiant you.

@@ -1,15 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
-import Banner from '../assets/Banner.png';
-import bannertwo from '../assets/bannertwo.png';
-import bannerthree from '../assets/bannerthree.png';
+
 
 const CarouselComponent = () => {
   const images = [
-    { src: Banner, link: '/products' },
-    { src: bannertwo, link: '/products/9' },
-    { src: bannerthree, link: '/products/13' },
+    { src: "/Banner.png", link: '/products' },
+    { src: "/bannertwo.png", link: '/products/9' },
+    { src: "/bannerthree.png", link: '/products/13' },
   ];
 
   return (
