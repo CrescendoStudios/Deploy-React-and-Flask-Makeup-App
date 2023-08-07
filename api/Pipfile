@@ -13,7 +13,6 @@ flask-cors = "*"
 flask-bcrypt = "*"
 stripe = "*"
 python-dotenv = "*"
-heroku = "*"
 gunicorn = "*"
 bcrypt = "*"
 

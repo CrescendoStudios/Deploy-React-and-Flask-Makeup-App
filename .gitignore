@@ -3,3 +3,4 @@ server/.pytest_cache
 .env
 .vercel
 .cache
+.vscode
