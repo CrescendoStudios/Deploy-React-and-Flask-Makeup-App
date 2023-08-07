@@ -5,9 +5,9 @@ import { Carousel } from 'react-responsive-carousel';
 
 const CarouselComponent = () => {
   const images = [
-    { src: "/Banner.png", link: '/products' },
-    { src: "/bannertwo.png", link: '/products/9' },
-    { src: "/bannerthree.png", link: '/products/13' },
+    { src: "/Banner.jpg", link: '/products' },
+    { src: "/bannertwo.jpg", link: '/products/9' },
+    { src: "/bannerthree.jpg", link: '/products/13' },
   ];
 
   return (
