@@ -4,3 +4,5 @@ server/.pytest_cache
 .vercel
 .cache
 .vscode
+
+client/node_modules
