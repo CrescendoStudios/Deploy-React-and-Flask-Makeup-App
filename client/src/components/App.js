@@ -37,11 +37,16 @@ function App() {
     } else {
       fetch("/checksession").then((r) => {
         if (r.ok && r.headers.get("Content-Length") !== "0") {
-          r.json().then((user) => {
-            setUser(user);
-            localStorage.setItem("user", JSON.stringify(user));
-          });
+          return r.json();
         }
+        throw new Error("No content");
+      })
+      .then((user) => {
+        setUser(user);
+        localStorage.setItem("user", JSON.stringify(user));
+      })
+      .catch((error) => {
+        console.log("Fetch error:", error.message);
       });
     }
   }, [setUser]);

@@ -96,7 +96,7 @@ class CheckSession(Resource):
             
             return make_response(user.to_dict(), 200)
 
-        return {}, 204
+        return {"message": "No user found"}, 204
 
 api.add_resource(CheckSession, '/checksession')
 
