@@ -1,22 +1,22 @@
 import React, { useEffect, useState, useContext } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./Home";
-import Navbar from "./NavBar";
-import Signup from "./SignUp";
-import Login from "./Login";
+import Home from "./Home.js";
+import Navbar from "./NavBar.js";
+import Signup from "./SignUp.js";
+import Login from "./Login.js";
 import Products from "./Products";
-import ProductCard from "./ProductCards";
-import Cart from "./Cart";
-import { UserContext, UserProvider } from "./UserContext";
-import ProductDetail from "./ProductDetail";
-import OrderComplete from "./OrderComplete";
-import OrderCancelled from "./Cancel";
-import Loading from "./Loading";
-import FeaturedProducts from "./FeaturedProducts";
-import LipMakeup from "./LipMakeup";
-import EyeMakeup from "./EyeMakeup";
-import FaceMakeup from "./FaceMakeup";
-import PastOrders from "./PastOrders";
+import ProductCard from "./ProductCards.js";
+import Cart from "./Cart.js";
+import { UserContext, UserProvider } from "./UserContext.js";
+import ProductDetail from "./ProductDetail.js";
+import OrderComplete from "./OrderComplete.js";
+import OrderCancelled from "./Cancel.js";
+import Loading from "./Loading.js";
+import FeaturedProducts from "./FeaturedProducts.js";
+import LipMakeup from "./LipMakeup.js";
+import EyeMakeup from "./EyeMakeup.js";
+import FaceMakeup from "./FaceMakeup.js";
+import PastOrders from "./PastOrders.js";
 
 
 
