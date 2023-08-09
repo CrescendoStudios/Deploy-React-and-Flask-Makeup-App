@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "client/package.json",
-      "use": "@vercel/static-build"
+      "use": "@vercel/node"
     },
     {
       "src": "api/**/*.py",
@@ -28,3 +28,4 @@
     }
   ]
 }
+
