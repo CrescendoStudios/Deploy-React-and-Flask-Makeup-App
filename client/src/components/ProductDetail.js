@@ -6,7 +6,7 @@ import Footer from "./Footer";
 function ProductDetail(){
 
     const [product, setProductDetail] = useState("")
-    const [showAlert, setShowAlert] = useState(false)
+    const [setShowAlert] = useState(false)
 
     const { id } = useParams()
     const navigate = useNavigate();

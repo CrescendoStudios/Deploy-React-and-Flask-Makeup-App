@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 
 function Login() {
-    const { user, setUser } = useContext(UserContext);
+    const { setUser } = useContext(UserContext);
 
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
