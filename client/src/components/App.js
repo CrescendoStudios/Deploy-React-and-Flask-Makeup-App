@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./Home.js";
+import TempHome from "./TempHome.js";
 import Navbar from "./NavBar.js";
 import Signup from "./SignUp.js";
 import Login from "./Login.js";
@@ -63,7 +63,7 @@ function App() {
     <>
       <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<TempHome />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
           <Route path="/products"element={<Products productCards={productCards} />} />

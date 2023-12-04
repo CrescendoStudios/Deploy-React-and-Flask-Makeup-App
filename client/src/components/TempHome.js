@@ -5,7 +5,7 @@ import CarouselComponent from './Carousel'
 
 
 
-function Home(){
+function TempHome(){
 
 return (
     <div className="glassy-bg min-h-screen overflow-scroll">
@@ -25,5 +25,5 @@ return (
     )
 }
 
-export default Home;
+export default TempHome;
 
